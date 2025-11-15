@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:to_do_list/register1.dart';
 import 'package:to_do_list/splashScreen.dart';
 
 void main() {
@@ -14,7 +15,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',debugShowCheckedModeBanner: false,
       routes: {
-        splashScreen.routName:(_)=>splashScreen()
+        splashScreen.routName:(_)=>splashScreen(),
+       registerScreen.routName:(_)=>registerScreen(),
       },
       initialRoute: splashScreen.routName,
 
