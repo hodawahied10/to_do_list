@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:to_do_list/register1.dart';
 
 class splashScreen extends StatelessWidget {
   static const String routName = 'splashScreen';
@@ -50,7 +51,9 @@ class splashScreen extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.only(bottom:200),
               child: ElevatedButton(
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.pushNamed(context,registerScreen.routName);
+                },
                 style: ElevatedButton.styleFrom(
                   padding: EdgeInsets.zero,
                   backgroundColor: Colors.transparent,
