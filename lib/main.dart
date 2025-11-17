@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:to_do_list/register1.dart';
+import 'package:to_do_list/register2.dart';
 import 'package:to_do_list/splashScreen.dart';
 
 void main() {
@@ -17,6 +18,7 @@ class MyApp extends StatelessWidget {
       routes: {
         splashScreen.routName:(_)=>splashScreen(),
        registerScreen.routName:(_)=>registerScreen(),
+        registerScreen2.routName:(_)=>registerScreen2(),
       },
       initialRoute: splashScreen.routName,
 
