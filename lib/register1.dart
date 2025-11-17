@@ -1,5 +1,6 @@
 
 import 'package:flutter/material.dart';
+import 'package:to_do_list/register2.dart';
 
 class registerScreen extends StatelessWidget{
   static const String routName = 'registerScreen';
@@ -96,7 +97,7 @@ class registerScreen extends StatelessWidget{
                 padding: const EdgeInsets.only(bottom:35),
                 child: ElevatedButton(
                   onPressed: () {
-                    Navigator.pushNamed(context,registerScreen.routName);
+                    Navigator.pushNamed(context,registerScreen2.routName);
                   },
                   style: ElevatedButton.styleFrom(
                     padding: EdgeInsets.zero,
