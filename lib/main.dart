@@ -3,6 +3,8 @@ import 'package:to_do_list/register1.dart';
 import 'package:to_do_list/register2.dart';
 import 'package:to_do_list/splashScreen.dart';
 
+import 'noteScreen.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -19,6 +21,7 @@ class MyApp extends StatelessWidget {
         splashScreen.routName:(_)=>splashScreen(),
        registerScreen.routName:(_)=>registerScreen(),
         registerScreen2.routName:(_)=>registerScreen2(),
+        noteScreen.routName:(_)=>noteScreen(),
       },
       initialRoute: splashScreen.routName,
 
